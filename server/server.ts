@@ -8,6 +8,7 @@ import accountRoutes from './routes/accounts';
 import budgetRoutes from './routes/budgets';
 import dashboardRoutes from './routes/dashboard';
 import pulseRoutes from './routes/pulse';
+import categoryRoutes from './routes/categories';
 
 dotenv.config();
 
@@ -27,6 +28,7 @@ app.use('/api/accounts', accountRoutes);
 app.use('/api/budgets', budgetRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/pulse', pulseRoutes);
+app.use('/api/categories', categoryRoutes);
 
 app.use(errorHandler);
 
