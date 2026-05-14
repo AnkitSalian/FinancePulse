@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "financepulse": {
+      "command": "node",
+      "args": ["./mcp/dist/index.js"],
+      "env": {
+        "DATABASE_URL": "postgresql://localhost:5432/financepulse"
+      }
+    }
+  }
+}
